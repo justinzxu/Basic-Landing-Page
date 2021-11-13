@@ -39,7 +39,7 @@ body {
     color: white;
     gap: 10px;
     height: 30vh;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 20px;
 }
@@ -110,6 +110,7 @@ body {
     border-style: solid;
     border-color: #3882F6;
     border-width: 5px;
+    border-radius: 8px;
     padding: 30%;
 }
 
@@ -144,6 +145,19 @@ body {
     padding: 20px;
     height: fit-content;
     width: fit-content;
+    color: #e5e7eb;
+    border-radius: 8px;
+}
+
+button {
+    color:#e5e7eb;
+    font-size: larger;
+    background-color: #3882F6;
+    padding:10px;
+    border: 3px;
+    border-color: #e5e7eb;
+    border-style: solid;
+    border-radius: 8px;
 }
 
 .footer {
